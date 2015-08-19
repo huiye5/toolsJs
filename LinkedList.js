@@ -158,7 +158,6 @@ define(function () {
     };
     LinkedList.prototype.valueOf = function () {
         var arr = [];
-        var iter = this.iterator();
         this.each(function (itemNode) {
             arr.push(itemNode);
         });
